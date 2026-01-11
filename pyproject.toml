@@ -1,1 +1,29 @@
-pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telegram-bot-pdf-uploader"
+version = "0.1.0"
+description = "Telegram bot to index, search and upload PDF files from local directories"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "kaaylooon", email = "147407409+kaaylooon@users.noreply.github.com" }
+]
+
+dependencies = [
+    "python-telegram-bot",
+    "python-dotenv"
+]
+
+[project.urls]
+Homepage = "https://github.com/kaaylooon/telegram-bot-pdf-uploader"
+Repository = "https://github.com/kaaylooon/telegram-bot-pdf-uploader"
+
+[tool.setuptools]
+package-dir = { "" = "." }
+
+[tool.setuptools.packages.find]
+exclude = ["venv*", "tests*"]
