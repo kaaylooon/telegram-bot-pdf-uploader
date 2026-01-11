@@ -4,8 +4,8 @@ A Python-based Telegram bot designed to **index, search, and upload PDF files** 
 
 ---
 
-![Screenshot - 1](/src/ss-1.png)
-![Screenshot - 2](/src/ss-2.png)
+![Screenshot - 1](/src/ss-2.png)
+![Screenshot - 2](/src/ss-1.png)
 
 ---
 
@@ -44,6 +44,6 @@ python main.py
 - python3
 - python-telegram-bot
 
-## PDF
+## .json
 
 The pdf_index.json file is generated automatically and should not be edited, generate yours with tools/index_pdfs.py
